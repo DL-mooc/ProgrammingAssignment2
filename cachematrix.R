@@ -4,7 +4,7 @@
 ## in the environment of her program
 
 ## Makes a new matrix capable of caching it's inverse
-## 'x' should be an invertible matrix
+## 'original_matrix' should be an invertible matrix
 ## To get the inverse of this new matrix, use 'cacheSolve' function
 makeCacheMatrix <- function(original_matrix = matrix()) {
     inverse_matrix <- NULL
